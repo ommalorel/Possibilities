@@ -20,11 +20,25 @@
 
 /* Begin PBXFileReference section */
 		1C3DF44A2ECDF9D900FEF085 /* Possibilities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Possibilities; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA6D88D2ECE395B00F8EDC7 /* Possibilities.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Possibilities.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		1C3DF4582ECDFC1E00FEF085 /* Exceptions for "Possibilities" folder in "Compile Sources" phase from "Possibilities" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 1C3DF4462ECDF9D900FEF085 /* Sources */;
+			membershipExceptions = (
+				1.0.h,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1C3DF44C2ECDF9D900FEF085 /* Possibilities */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1C3DF4582ECDFC1E00FEF085 /* Exceptions for "Possibilities" folder in "Compile Sources" phase from "Possibilities" target */,
+			);
 			path = Possibilities;
 			sourceTree = "<group>";
 		};
@@ -53,6 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				1C3DF44A2ECDF9D900FEF085 /* Possibilities */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA6D88F2ECE395B00F8EDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +129,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1C3DF44B2ECDF9D900FEF085 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1CA6D88F2ECE395B00F8EDC7 /* Products */;
+					ProjectRef = 1CA6D88D2ECE395B00F8EDC7 /* Possibilities.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1C3DF4492ECDF9D900FEF085 /* Possibilities */,
