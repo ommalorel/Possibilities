@@ -1,28 +1,10 @@
-1.
-    3 ihtimal yarat ve doğru cevabı 3 ihtimalden bir tanesinin arkasına koy.
-2.
-    Kullanıcıya 3 ihtimalden birini seçtir.
-    
-3.
-    Kullanıcının seçimi ve doğru cevabın olduğu yeri kaydet.
-    
-4.
-    Kullanıcının seçimi eğer doğru cevapta ise doğru cevap dışındaki diğer 2 seçenekten birini yok et ve kullanıcıya geriye hangi seçeneklerin kaldığını ve yeniden seçim yapabileceğini söyle.
-    
-    a.
-        Kullanıcıya elenmiş seçim dışındaki diğer 2 seçenekten bir tanesini seçme hakkı tanı.
-    b.
-        Eğer Kullanıcı doğru seçeneği seçmişse "Başardın" yaz. Eğer kullanıcı yanlış seçeneği seçtiyse "Kaybettin" Yaz.
-5.
-    Kullanıcının seçimi eğer yanlış cevapta ise doğru cevap ve kullanıcının seçtiği seçenek dışında kalan seçeneği yok et ve kullanıyıca geriye hangi seçeneklerin kaldığını ve yeniden seçim yapabileceğini söyle.
-    a.
-        Kullanıcıya elenmiş seçim dışındaki diğer 2 seçenekten bir tanesini seçme hakkı tanı.
-    b.
-        Eğer Kullanıcı doğru seçeneği seçmişse "Başardın" yaz. Eğer kullanıcı yanlış seçeneği seçtiyse "Kaybettin" Yaz.
-        
-        
-        
-Anlamaya çalışmak
-    
-    Doğru cevabı bilince booleanlarda bir tanesi 2 bir tanesi -1 bir tanesi de 0 oluyor. Bu durumda biz 2 olan şıkkı ve -1 olanı tutup 0 olanı atmak istiyoruz.
-    Yanlış cevabı bilince booleanlarda bir tanesi 1 başka bir tanesi daha 1 oluyor ve diğer yanlış seçenek 0 kalıyor. 0 olanı atmak istiyoruz.
+1. Manuel seçimler yerine random sayı koyulacak.
+2. Random sayı koyulup ilk seçimini yaptıktan sonra 2 farklı ilerleyiş olacak.
+    a. Bir karakter seçimini değiştirecek.
+    b. Diğer karakter ilk seçtiği seçim ile devam edecek.
+3. Her bir karakterin başarıları sayılacak ve while loopu bittikten sonra toplamda değiştiren nekadar kazanmış değiştirmeyen ne kadar kazanmış o gösterilecek.
+
+Düşünce:
+    Şuanda tek bir karakter ve tek bir karaktere atanmış tek bir seçim örgüsü var. 2. Bir karakter eklediğimiz için bir seçim örgüsü daha lazım.
+    xC yC olduğu gibi bir de xH yH gibi birşeyler koymak lazım.
+
