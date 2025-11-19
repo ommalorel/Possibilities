@@ -37,7 +37,7 @@ int main(){
     int yC = 0;
     int zC = 0;
     cout << "x y ve z arasından seçim yap. Doğru olanı bulursan kazanırsın: " << endl;
-    cin >> UserChoice;
+    UserChoice = distrib(gen);
     switch (UserChoice) {
         case 'x':
             xC += 1;
@@ -98,7 +98,7 @@ int main(){
     xC = 0;
     yC = 0;
     zC = 0;
-    cin >> UserChoice;
+    UserChoice = distrib(gen);
     char TrueChoice;
     if (x == 1) TrueChoice = 'x';
     if (y == 1) TrueChoice = 'y';
