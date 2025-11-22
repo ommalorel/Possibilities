@@ -10,6 +10,10 @@ int main(){
     
     int TrueNum = distrib(gen);
     
+    int Secx = 0;
+    int Secy = 0;
+    int Secz = 0;
+    
     int Totalx = 0;
     int Totaly = 0;
     int Totalz = 0;
@@ -94,9 +98,9 @@ int main(){
                 break;
         }
     }
-         //       cout << "Doğru cevap: " << " x: " << x << " y: " << y << " z: " << z << endl;
-           //     cout << "Senin seçimin: " << " x: " << xC << " y: " << yC << " z: " << zC << endl;
-             //   cout << "Booleanlar: " << " x: " << Totalx << " y: " << Totaly << " z: " << Totalz << endl;
+           cout << "Doğru cevap: " << " x: " << x << " y: " << y << " z: " << z << endl;
+              cout << "Senin seçimin: " << " x: " << xC << " y: " << yC << " z: " << zC << endl;
+              cout << "Booleanlar: " << " x: " << Totalx << " y: " << Totaly << " z: " << Totalz << endl;
     cout << "Güzel seçim ama şimdi sana bir şans daha veriyorum. Şuanda seçtiğin haricinde bir seçenek eleyeceğim ve sen onlardan birini seçmek zorundasın. İstersen şuanda seçmiş olduğunu yeniden seçebilirsin ya da yeni bir tane seçebilirsin. Karar senin! " << endl;
     cout << "İşte Diğer seçenekler: " ;
     if(Totalx != 0) cout << "x ";
