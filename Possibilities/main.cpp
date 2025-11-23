@@ -102,6 +102,7 @@ int main(){
               cout << "Senin seçimin: " << " x: " << xC << " y: " << yC << " z: " << zC << endl;
               cout << "Booleanlar: " << " x: " << Totalx << " y: " << Totaly << " z: " << Totalz << endl;
     cout << "Güzel seçim ama şimdi sana bir şans daha veriyorum. Şuanda seçtiğin haricinde bir seçenek eleyeceğim ve sen onlardan birini seçmek zorundasın. İstersen şuanda seçmiş olduğunu yeniden seçebilirsin ya da yeni bir tane seçebilirsin. Karar senin! " << endl;
+    cout << "Senin seçimin: " << UserChoice << endl;
     cout << "İşte Diğer seçenekler: " ;
     if(Totalx != 0) cout << "x ";
     if(Totaly != 0) cout << "y ";
@@ -112,7 +113,6 @@ int main(){
     xC = 0;
     yC = 0;
     zC = 0;
-    cin >> UserChoice;
     char TrueChoice;
     if (x == 1) TrueChoice = 'x';
     if (y == 1) TrueChoice = 'y';
