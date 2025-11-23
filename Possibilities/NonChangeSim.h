@@ -8,7 +8,7 @@ void NonChangeSim() {
     int tries = 0;
     int succeed = 0;
     int fails = 0;
-    while (tries < 10000) {
+    while (tries < 1000000) {
         
         int TrueNum = distrib(gen);
         
