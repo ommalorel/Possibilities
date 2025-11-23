@@ -8,7 +8,7 @@ void NonChangeSim() {
     int tries = 0;
     int succeed = 0;
     int fails = 0;
-    while (tries < 1000) {
+    while (tries < 10000) {
         
         int TrueNum = distrib(gen);
         
@@ -38,7 +38,7 @@ void NonChangeSim() {
         int xC = 0;
         int yC = 0;
         int zC = 0;
-        cout << "x y ve z arasından seçim yap. Doğru olanı bulursan kazanırsın: " << endl;
+   //     cout << "x y ve z arasından seçim yap. Doğru olanı bulursan kazanırsın: " << endl;
         switch (distrib(gen)) {
             case 1:
                 UserChoice = 'x';
@@ -96,18 +96,18 @@ void NonChangeSim() {
                     break;
             }
         }
-        cout << "Doğru cevap: " << " x: " << x << " y: " << y << " z: " << z << endl;
-        cout << "Senin seçimin: " << " x: " << xC << " y: " << yC << " z: " << zC << endl;
-        cout << "Booleanlar: " << " x: " << Totalx << " y: " << Totaly << " z: " << Totalz << endl;
-        cout << "Güzel seçim ama şimdi sana bir şans daha veriyorum. Şuanda seçtiğin haricinde bir seçenek eleyeceğim ve sen onlardan birini seçmek zorundasın. İstersen şuanda seçmiş olduğunu yeniden seçebilirsin ya da yeni bir tane seçebilirsin. Karar senin! " << endl;
-        cout << "Senin seçimin: " << UserChoice << endl;
-        cout << "İşte Diğer seçenekler: " ;
-        if(Totalx != 0) cout << "x ";
-        if(Totaly != 0) cout << "y ";
-        if(Totalz != 0) cout << "z ";
-        if(x == -1) cout << "x ";
-        if(y == -1) cout << "y ";
-        if(z == -1) cout << "z ";
+     //   cout << "Doğru cevap: " << " x: " << x << " y: " << y << " z: " << z << endl;
+      //  cout << "Senin seçimin: " << " x: " << xC << " y: " << yC << " z: " << zC << endl;
+       // cout << "Booleanlar: " << " x: " << Totalx << " y: " << Totaly << " z: " << Totalz << endl;
+        //cout << "Güzel seçim ama şimdi sana bir şans daha veriyorum. Şuanda seçtiğin haricinde bir seçenek eleyeceğim ve sen onlardan birini seçmek zorundasın. İstersen şuanda seçmiş olduğunu yeniden seçebilirsin ya da yeni bir tane seçebilirsin. Karar senin! " << endl;
+       // cout << "Senin seçimin: " << UserChoice << endl;
+       // cout << "İşte Diğer seçenekler: " ;
+       // if(Totalx != 0) cout << "x ";
+       // if(Totaly != 0) cout << "y ";
+       // if(Totalz != 0) cout << "z ";
+       // if(x == -1) cout << "x ";
+       // if(y == -1) cout << "y ";
+       // if(z == -1) cout << "z ";
         xC = 0;
         yC = 0;
         zC = 0;
@@ -116,17 +116,17 @@ void NonChangeSim() {
         if (y == 1) TrueChoice = 'y';
         if (z == 1) TrueChoice = 'z';
         if(UserChoice == TrueChoice){
-            cout << "Helal! Kazandın!" << endl;
+            // cout << "Helal! Kazandın!" << endl;
             tries += 1;
             succeed += 1;
         } else {
-            cout << "Olmadı ya yapamadın" << endl;
+           // cout << "Olmadı ya yapamadın" << endl;
             tries += 1;
             fails += 1;
         }
         
     }
-    cout << "Bu 1. test" << endl;
+    cout << "This is the result when the player never changes their choice." << endl;
     cout << "Tries: " << tries << endl;
     cout << "Succeded:  " << succeed << endl;
     cout << "Failed: " << fails << endl;
