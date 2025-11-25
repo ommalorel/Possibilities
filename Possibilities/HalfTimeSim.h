@@ -105,13 +105,19 @@ void HalfTimeSim() {
       //  cout << "Güzel seçim ama şimdi sana bir şans daha veriyorum. Şuanda seçtiğin haricinde bir seçenek eleyeceğim ve sen onlardan birini seçmek zorundasın. İstersen şuanda seçmiş olduğunu yeniden seçebilirsin ya da yeni bir tane seçebilirsin. Karar senin! " << endl;
       //  cout << "Senin seçimin: " << UserChoice << endl;
       //  cout << "İşte Diğer seçenekler: " ;
-        if(Totalx != 0) Half1 = 'x';
-        if(Totaly != 0)  Half1 = 'y';
-        if(Totalz != 0) Half1 = 'z';
-        if(x == -1) Half2 = 'x';
-        if(y == -1)  Half2 = 'y';
-        if(z == -1)  Half2 = 'z';
+      //  if(Totalx != 0);
+       // if(Totaly != 0);
+        //if(Totalz != 0);
+       // if(x == -1);
+       // if(y == -1);
+       // if(z == -1);
      //   cout << " Halfx " << x << "Halfy " << y << "Half z " << z << endl;
+        if(x == 1){Half1 = 'x';}
+        if(y == 1){Half1 = 'y';}
+        if(z == 1){Half1 = 'z';}
+        if(x == -1){Half2 = 'x';}
+        if(y == -1){Half2 = 'y';}
+        if(z == -1){Half2 = 'z';}
         xC = 0;
         yC = 0;
         zC = 0;
